@@ -1,0 +1,37 @@
+{
+    "name": "offer-organizer",
+    "displayName": "Offer Organizer",
+    "description": "Раскладывает файлы из корня по папкам (css, js, img, video, fonts, data, audio, files, includes) и обновляет пути в коде.",
+    "version": "0.0.8",
+    "publisher": "boostclicks",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/boostclicks/offer-organizer"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "main": "./extension.js",
+    "activationEvents": [
+        "onCommand:offerOrganizer.organizeProject"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "offerOrganizer.organizeProject",
+                "title": "Offer Organizer: Разложить файлы по папкам"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "offerOrganizer.organizeProject",
+                "key": "ctrl+alt+shift+o",
+                "when": "editorTextFocus"
+            }
+        ]
+    }
+}
