@@ -2,8 +2,9 @@
     "name": "offer-organizer",
     "displayName": "Offer Organizer",
     "description": "Раскладывает файлы из корня по папкам (css, js, img, video, fonts, data, audio, files, includes) и обновляет пути в коде.",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "publisher": "boostclicks",
+    "icon": "Boost_trafic132.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/boostclicks/offer-organizer"
